@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Me</title>
-    <style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <style>
     body {
-      background-color: #222831;
+      background-color: black;
       color: #ffffff;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
     }
+
     a {
       outline: none;
       text-decoration: none;
@@ -18,11 +20,11 @@
       text-align: center;
       line-height: 3;
       color: white;
-      background: #222831;
+      background: #4c4c4c;
       float: right;
-      border: 1px solid #00adb5;
+      border: 1px solid white;
       font-size: 14px;
-      }
+    }
 
     a:hover {
       background: #eeeeee;
@@ -31,55 +33,52 @@
     }
 
     input[type=submit] {
-    width: 20em;  height: 5em;
-    position: relative;
-    left: 50px;
-    bottom: 30px;
-    outline: none;
-    text-decoration: none;
-    display: inline-block;
-    width: 10.5%;
-    margin-right: 0.625%;
-    text-align: center;
-    line-height: 3;
-    color: white;
-    background: #222831;
-    border: 1px solid #00adb5;
-    font-size: 14px;
+      width: 20em;
+      height: 5em;
+      position: relative;
+      left: 50px;
+      bottom: 30px;
+      outline: none;
+      text-decoration: none;
+      display: inline-block;
+      width: 10.5%;
+      margin-right: 0.625%;
+      text-align: center;
+      line-height: 3;
+      color: white;
+      background: #4c4c4c;
+      border: 1px solid white;
+      font-size: 14px;
 
-}
-  input[type=submit]:hover{
-    background: #eeeeee;
-    transition: 0.2s;
-    color: #393e46;
-  }
+    }
 
+    input[type=submit]:hover {
+      background: #eeeeee;
+      transition: 0.2s;
+      color: #4c4c4c;
+    }
+  </style>
+</head>
 
-    </style>
-  </head>
-  <body>
-    <a href="index.html">Back to Home</a>
+<body>
+  <a href="index.html">Back to Home</a>
 
-    <h3>Contact Me</h3>
-    <ul>
-      <li>Email: sysaleem@outlook.com</li>
-      <li>Phone: (412) 999-2242</li>
-    </ul>
+  <h3>Contact Me</h3>
+  <ul>
+    <li>Email: sysaleem@outlook.com</li>
+    <li>Phone: (412) 999-2242</li>
+  </ul>
+  <hr>
+  <form action="mailto:sysaleem@outlook.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" type="text" name="yourName" value=""><br><br>
+    <label>Your Email:</label>
+    <input style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" type="email" name="yourEmail" value=""><br><br>
+    <label>Your Message:</label><br>
+    <textarea style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" name="yourMessage" rows="20" cols="60"></textarea><input type="submit" name="">
+  </form>
+  <hr>
 
+</body>
 
-    <hr>
-
-    <form action="mailto:sysaleem@outlook.com" method="post" enctype="text/plain">
-      <label>Your Name:</label>
-      <input style="color: #ffffff; caret-color: #ffffff; background-color: #222831;" type="text" name="yourName" value=""><br><br>
-      <label>Your Email:</label>
-      <input style="color: #ffffff; caret-color: #ffffff; background-color: #222831;" type="email" name="yourEmail" value=""><br><br>
-      <label>Your Message:</label><br>
-      <textarea style="color: #ffffff; caret-color: #ffffff; background-color: #222831;" name="yourMessage" rows="20" cols="60"></textarea><input type="submit" name="">
-
-    </form>
-    <hr>
-
-
-  </body>
 </html>
