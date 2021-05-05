@@ -1,84 +1,129 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico">
+    <style>
+      h1{
 
-<head>
-  <meta charset="utf-8">
-  <title>Contact Me</title>
-  <style>
-    body {
-      background-color: black;
-      color: #ffffff;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
+      }
 
-    a {
-      outline: none;
-      text-decoration: none;
-      display: inline-block;
-      width: 10.5%;
-      margin-right: 0.625%;
-      text-align: center;
-      line-height: 3;
-      color: white;
-      background: #4c4c4c;
-      float: right;
-      border: 1px solid white;
-      font-size: 14px;
-    }
+      .header{
+        background-color: #3d84b8;
+        color: #eeeeee;
+        position: relative;
+        top: 0px;
+        text-align: center;
+        font-family: 'Alegreya Sans SC';
+        font-size: 22px;
+        padding: 20px;
 
-    a:hover {
-      background: #eeeeee;
-      transition: 0.2s;
-      color: #393e46;
-    }
+      }
 
-    input[type=submit] {
-      width: 20em;
-      height: 5em;
-      position: relative;
-      left: 50px;
-      bottom: 30px;
-      outline: none;
-      text-decoration: none;
-      display: inline-block;
-      width: 10.5%;
-      margin-right: 0.625%;
-      text-align: center;
-      line-height: 3;
-      color: white;
-      background: #4c4c4c;
-      border: 1px solid white;
-      font-size: 14px;
+      body{
+        margin: 0;
+        background-color: #f8f5f1;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      input{
+        color: #3d84b8;
+        caret-color: #3d84b8;
+        background-color: #eeeeee;
+        font-family: 'Alegreya Sans SC';
+        font-size: 22px;
 
-    }
+      }
+      textarea{
+        color: #3d84b8;
+        caret-color: #3d84b8;
+        background-color: #eeeeee;
+        font-family: 'Calibri';
+        font-size: 20px;
+      }
 
-    input[type=submit]:hover {
-      background: #eeeeee;
-      transition: 0.2s;
-      color: #4c4c4c;
-    }
-  </style>
-</head>
+      label{
+        font-family: 'Alegreya Sans SC';
+        font-size: 22px;
+      }
 
-<body>
-  <a href="index.html">Back to Home</a>
+      .forms{
+        text-align: left;
+        padding: 20px;
+        position: relative;
+      }
 
-  <h3>Contact Me</h3>
-  <ul>
-    <li>Email: sysaleem@outlook.com</li>
-    <li>Phone: (412) 999-2242</li>
-  </ul>
-  <hr>
-  <form action="mailto:sysaleem@outlook.com" method="post" enctype="text/plain">
-    <label>Your Name:</label>
-    <input style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" type="text" name="yourName" value=""><br><br>
-    <label>Your Email:</label>
-    <input style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" type="email" name="yourEmail" value=""><br><br>
-    <label>Your Message:</label><br>
-    <textarea style="color: #ffffff; caret-color: #ffffff; background-color: #4c4c4c;" name="yourMessage" rows="20" cols="60"></textarea><input type="submit" name="">
-  </form>
-  <hr>
+      .btnS{
+        position: relative;
+        float: right;
+        top: 415px;
+        right: 400px;
+      }
 
-</body>
+      .sButt{
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .sButt:hover{
+        background-color: #3d84b8;
+        color: #eeeeee;
+        transition: 0.3s;
+      }
 
+      a{
+        border: 2.0px solid #0a0b45;
+        font-family: 'Alegreya Sans SC';
+        font-size: 20px;
+        text-decoration: none;
+        margin-right: 20px;
+        border-radius: 30px;
+        padding: 8px;
+        color: #0a0b45;
+        position: relative;
+        bottom: 100px;
+        right: 550px;
+      }
+
+      img{
+        width: 300px;
+        position: absolute;
+        right: 300px;
+        top: 300px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+  <div style="min-width: 960px; margin: 0 auto; background-color: #d8e3e7;">
+    <div class="header">
+      <h1>Contact Me</h1>
+      <a class="nav-link" href="index.html">Home</a>
+    </div>
+
+    <img src="email.png" alt="email">
+
+
+    <div class="forms">
+      <form action="mailto:sysaleem@outlook.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br><br>
+        <label>Your Email:</label>
+        <input  type="email" name="yourEmail" value=""><br><br>
+        <label style="t">Your Message:</label><br>
+        <textarea name="yourMessage" rows="20" cols="60"></textarea>
+
+        <div class="btnS">
+          <input class="sButt" type="submit">
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+
+
+  </body>
 </html>
