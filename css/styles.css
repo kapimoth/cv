@@ -109,7 +109,22 @@ p{
   position: absolute;
   width: 300px;
   left: 800px;
+}
 
+.gamePic{
+
+  position: absolute;
+  width: 150px;
+  left: 800px;
+  bottom: 100px;
+
+}
+
+.fishPic{
+  position: absolute;
+  width: 150px;
+  left: 970px;
+  top: 100px;
 }
 
 
