@@ -1,6 +1,6 @@
 .Header{
-  background-color: #3d84b8;
-  color: #eeeeee;
+  background-color: #00adb5;
+  color: #EEEEEE;
   position: relative;
   top: 0px;
   text-align: center;
@@ -17,25 +17,25 @@
   font-family: "Arial" , sans-serif;
   margin-left: 300px;
   margin-right: 300px;
-  color: #0a0b45;
+  color: #393e46;
 
 }
 
 .nav-link{
-  border: 2.0px solid #0a0b45;
+  border: 2.0px solid #393e46;
   font-family: "Arial" , sans-serif;
   font-size: 20px;
   text-decoration: none;
   margin-right: 20px;
   border-radius: 30px;
   padding: 8px;
-  color: #0a0b45;
+  color: #393e46;
   position: relative;
   top: 10px;
 }
 
 .nav-link:hover {
-  background: #3d84b8;
+  background: #00adb5;
   transition: 0.2s;
   color: #eeeeee;
 }
@@ -43,13 +43,14 @@
 body{
   margin-top: 0px;
   background-color: white;
+  background-image: url('background.jpg');
   margin-left: 150px;
   margin-right: 150px;
 }
 
 .overlay{
   opacity:0;
-   background-color: black;
+   background-color: #393e46;
    position:fixed;
    width:100%;
    height:100%;
@@ -59,7 +60,7 @@ body{
 }
 
 hr{
-  border-color: #3d84b8;
+  border-color: #00adb5;
   border-style: none;
   border-top-style: dotted;
   border-width: 10px;
@@ -100,7 +101,7 @@ p{
 
 .myPic{
   border-radius: 15px;
-  border: 9.0px solid #3d84b8;
+  border: 9.0px solid #00adb5;
   width: 180px;
   margin: 50px;
 }
