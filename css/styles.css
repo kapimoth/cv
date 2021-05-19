@@ -18,20 +18,24 @@
   margin-left: 300px;
   margin-right: 300px;
   color: #393e46;
-
 }
 
 .nav-link{
-  border: 2.0px solid #393e46;
+  border: 2.0px;
   font-family: "Arial" , sans-serif;
   font-size: 20px;
-  text-decoration: none;
-  margin-right: 20px;
-  border-radius: 30px;
+  text-decoration: none
+  margin-right: 50px;
   padding: 8px;
   color: #393e46;
+  background-color: #00adb5;
   position: relative;
   top: 10px;
+}
+
+a{
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 .nav-link:hover {
@@ -72,23 +76,26 @@ hr{
 
 h1{
   margin: 0;
+  color: #393e46;
 }
 
 
 h2{
   text-align: center;
   font-family: "Arial" , sans-serif;
+  color: #393e46;
 }
 
 h3{
   font-family: "Arial" , sans-serif;
   margin-top: 40px;
-
+  color: #393e46;
 }
 
 h4{
   font-family: "Arial" , sans-serif;
   margin-top: 20px;
+  color: #393e46;
 
 }
 
@@ -97,13 +104,12 @@ p{
   margin: 0;
   font-family: 'Arial' , sans-serif;
   font-size: 17px;
+  color: #393e46;
 }
 
 .myPic{
-  border-radius: 15px;
-  border: 9.0px solid #00adb5;
   width: 180px;
-  margin: 50px;
+  margin: 5px;
 }
 
 .grad-hat{
@@ -128,10 +134,6 @@ p{
   top: 100px;
 }
 
-
-
-
-
 .codePic{
   position: absolute;
   width: 200px;
@@ -151,7 +153,6 @@ p{
   width: 250px;
   left: 850px;
   top: 50px;
-
 }
 
 ul{
@@ -165,5 +166,4 @@ ul{
 
 .Education{
   margin-left: 20px;
-
 }
