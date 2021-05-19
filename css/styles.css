@@ -4,7 +4,7 @@
   position: relative;
   top: 0px;
   text-align: center;
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
   font-size: 22px;
   padding: 30px;
 }
@@ -14,7 +14,7 @@
   text-align: center;
   padding: 20px;
   font-size: 20px;
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
   margin-left: 300px;
   margin-right: 300px;
   color: #0a0b45;
@@ -23,7 +23,7 @@
 
 .nav-link{
   border: 2.0px solid #0a0b45;
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
   font-size: 20px;
   text-decoration: none;
   margin-right: 20px;
@@ -42,7 +42,7 @@
 
 body{
   margin-top: 0px;
-  background-color: #f8f5f1;
+  background-color: white;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -76,17 +76,17 @@ h1{
 
 h2{
   text-align: center;
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
 }
 
 h3{
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
   margin-top: 40px;
 
 }
 
 h4{
-  font-family: 'Alegreya Sans SC';
+  font-family: "Arial" , sans-serif;
   margin-top: 20px;
 
 }
@@ -94,8 +94,8 @@ h4{
 
 p{
   margin: 0;
-  font-family: 'Alegreya Sans SC';
-  font-size: 18px;
+  font-family: 'Arial' , sans-serif;
+  font-size: 17px;
 }
 
 .myPic{
@@ -158,7 +158,7 @@ ul{
 }
 
 .Attributions{
-  font-family: 'Alegreya Sans SC';
+  font-family: 'Arial' , sans-serif;
   font-size: 10px;
 }
 
