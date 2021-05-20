@@ -12,7 +12,7 @@
 .Bio{
   position: relative;
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   font-size: 20px;
   font-family: "Arial" , sans-serif;
   margin-left: 300px;
@@ -46,8 +46,7 @@ a{
 
 body{
   margin-top: 0px;
-  background-color: white;
-  background-image: url('background.jpg');
+  background-color: #eeeeee;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -76,7 +75,7 @@ hr{
 
 h1{
   margin: 0;
-  color: #393e46;
+  color: #aad8d3;
 }
 
 
